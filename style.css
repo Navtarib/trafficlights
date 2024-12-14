@@ -1,0 +1,117 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+height: 100vh;
+width: 100vw;
+}
+
+.traffic-light {
+    height: 500px;
+    width: 200px;
+    background-color: gray;
+    border-radius: 20px;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 40px;
+}
+
+.red {
+    background-color: lightgrey;
+    border: 1px solid ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.yellow {
+    background-color: lightgrey;
+    border: 1px solid ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: lightgrey;
+    border: 1px solid ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#red.active {
+    background-color: red;
+}
+
+#yellow.active {
+    background-color: yellow;
+}
+
+#green.active {
+    background-color: green;
+}
+
+button {
+    background-color: black;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    height: 60px;
+    width: 200px;
+    font-size: 1.4rem;
+} */
+    /* Basic styling for the traffic light container */
+    .traffic-light {
+        width: 100px;
+        height: 300px;
+        background-color: #333;
+        border-radius: 20px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px auto;
+      }
+      
+      /* Styling for individual lights */
+      .light {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #555;
+        transition: background-color 1s ease;
+      }
+      
+      /* Custom colors for each light state */
+      .red { background-color: red; }
+      .yellow { background-color: yellow; }
+      .green { background-color: green; }
+      
+      /* Styling for the action text */
+      .action {
+        text-align: center;
+        font-size: 20px;
+        color: #333;
+        margin-top: 20px;
+      }
+      .container{
+      width: 1850px;; 
+      height:850px; 
+      background-color:red;
+      background-image: url('images/traffic.webp'); 
+      background-repeat: no-repeat; 
+      background-size: 1850px 850px;
+  }
+  
